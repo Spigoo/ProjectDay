@@ -1,0 +1,43 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: rgb(220, 52, 10);
+  color: white;
+  padding: 2rem 0;
+}
+footer .footer-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1110px;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.app-navbar {
+  background-color: rgb(220, 52, 10);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.app-navbar .navbar-items {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
+}
+.app-navbar .navbar-items .nav-links {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.app-navbar .navbar-items .nav-links:hover {
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=App.css.map */
