@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './componenti/Navbar';
 import Footer from './componenti/Footer';
 import Home from './pages/Home';
-import Blog from './pages/Blog';
-import ChiSono from './pages/ChiSono';
-import Contatti from './pages/Contatti';
-
+import Innovazioni from './pages/Innovazioni';
+import Progetto from './pages/Progetto';
+import Storia from './pages/Storia';
 
 const App = () => {
 return (
@@ -15,9 +14,9 @@ return (
     <Navbar/>
     <Routes>
       <Route exact path= "/" element={<Home/>}/>
-      <Route exact path= "/chi-sono" element={<ChiSono/>}/>
-      <Route exact path= "/blog" element={<Blog/>}/>
-      <Route exact path= "/contatti" element={<Contatti/>}/>
+      <Route exact path= "/chi-sono" element={<Progetto/>}/>
+      <Route exact path= "/innovazioni" element={<Innovazioni/>}/>
+      <Route exact path= "/storia" element={<Storia/>}/>
     </Routes>
     <Footer/>
   </div>

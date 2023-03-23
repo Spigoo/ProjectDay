@@ -11,13 +11,13 @@ export const MenuData = [
     cName: 'nav-links',
   },
   {
-    title: 'Blog',
-    url: '/blog',
+    title: 'Innovazioni',
+    url: '/innovazioni',
     cName: 'nav-links',
   },
   {
-    title: 'Contatti',
-    url: '/contatti',
+    title: 'Storia',
+    url: '/storia',
     cName: 'nav-links',
     icon: 'fa-solid fa-house-user',
   },

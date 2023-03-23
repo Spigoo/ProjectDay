@@ -1,18 +1,15 @@
 import React from 'react';
 import "../Styles/App.css"
 
-import {MenuData} from '../data';
+import { MenuData } from '../data';
 
 const Navbar = () => {
-    return(
+    return (
         <nav className='app-navbar'>
-            <div class='foto'> <img  src="../../public/logoprojectday.png" type=''/></div>
-        
-            
-            
+            <div class='foto'> <img src="/logoprojectday.png" type='' /></div>
             <ul className="navbar-items">
-                {MenuData.map((item) =>{
-                    return(
+                {MenuData.map((item) => {
+                    return (
                         <li>
                             <a href={item.url} className="nav-links">
                                 {item.title}
