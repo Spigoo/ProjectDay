@@ -1,11 +1,14 @@
 import React from 'react';
+import "../Styles/App.css"
 
 import {MenuData} from '../data';
 
 const Navbar = () => {
     return(
         <nav className='app-navbar'>
-            <h1></h1>
+            <div class='foto'> <img  src="../../public/logoprojectday.png" type=''/></div>
+        
+            
             
             <ul className="navbar-items">
                 {MenuData.map((item) =>{
